@@ -1,0 +1,221 @@
+main {
+    width: 1100px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.course {
+    box-shadow: 1px 1px 20px gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mmm,
+.nnn {
+    margin-bottom: 50px;
+}
+
+.mmm {
+    padding-top: 50px;
+}
+
+.ooo {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a,
+.sectil {
+    text-decoration: none;
+    color: royalblue;
+}
+
+body {
+    background-image: linear-gradient(112.5deg, navy, purple, blueviolet, darkblue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    margin-top: 10px;
+    border-radius: 10px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: linear-gradient(45deg, blue, royalblue, skyblue, lightblue);
+}
+
+.qqq img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.head .qqq h1 {
+    color: white;
+}
+
+.qqq {
+    display: flex;
+    place-items: center;
+}
+
+.ddd {
+    padding-left: 100px;
+}
+
+.eee {
+    padding-left: 180px;
+}
+
+.qqq ul {
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.profl img {
+    width: 40px;
+}
+
+.qqq ul li {
+    padding-left: 30px;
+}
+
+.qqq ul li a {
+    color: white;
+}
+
+
+.toply,
+.topblog,
+.courses {
+    display: grid;
+    grid-gap: 30px;
+    margin-top: 20px;
+}
+
+.course img {
+    width: 200px;
+    margin-left: 3em;
+}
+
+.topblog {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.toply,
+.courses {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.thumbal img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.player,
+.blogs {
+    display: flex;
+    align-items: center;
+}
+
+.solid {
+    color: goldenrod;
+    font-size: 0.8em;
+}
+
+.unsolid {
+    color: lightgray;
+    font-size: 0.8em;
+}
+
+.courinfo {
+    display: flex;
+}
+
+.icon,
+.rating,
+.duration {
+    margin-right: 20px;
+}
+
+.duration {
+    background-color: rgba(250, 146, 114, 0.6);
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: brown;
+}
+
+@media (max-width: 992px) {
+
+    .toply,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .topblog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .head {
+        padding-right: 200px;
+    }
+
+    .course {
+        margin-bottom: 30px;
+        width: auto;
+    }
+
+    main {
+        width: auto;
+    }
+
+    .course img {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 688px) {
+
+    .toply,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blogs,
+    .head {
+        display: block;
+    }
+
+    .qqq {
+        padding-left: 0%;
+    }
+
+    .bloginfo {
+        margin-top: 10px;
+    }
+
+    .course img {
+        padding-left: 20px;
+    }
+
+    .qqq ul {
+        padding-left: 10px;
+    }
+
+    .ddd {
+        padding-left: 100px;
+    }
+}
